@@ -9,13 +9,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines)
 - Remote Desktop
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b>
 
 <h2>List of Prerequisites</h2>
 
@@ -33,7 +33,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 
-1.) The first thing you are going to do is create a virtual machine by going to https://portal.azure.com/. Setup your virtual machine with Windows 10 Pro, version 22H2. You will want to create a virtual machine with at least 2 vcpus and 16 gbs of memory.
+1.) The first thing you are going to do is create a virtual machine by going to https://portal.azure.com/. 
+
+Setup your virtual machine with Windows 10 Pro, version 22H2. 
+
+You will want to create a virtual machine with at least 2 vcpus and 16 gbs of memory.
 
 2.) Once you have created your virtual machine you will want to take the public ip address the vm is setup with and connect using the remote desktop connection app on your windows computer. 
 </p>
@@ -305,6 +309,7 @@ Select a principal
 <p>
   
   The last step is to do some clean up. We will want to delete the setup folder in our system. 
+  
   -Delete: C:\inetpub\wwwroot\osTicket\setup
   Only delete the setup folder and nothing else.
   
