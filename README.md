@@ -110,7 +110,7 @@ If this appears, choose to “Keep” the file:
 </p>
 <p>
 
-9.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe. 
+9.) Now download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe. 
   
 10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
   Run the setup wizard:
